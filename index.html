@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h1>hellow</h1>
+    <section class="mt-5  px-10 " >
+        <nav class="class= flex   bg-gray-100">
+            <div class="flex items-center justify-between  border-dashed p-2 rounded-lg w-full bg-white shadow-md">
+                <!-- Logo and Text -->
+                <div class="flex items-center space-x-2">
+                    <img src="assets/logo.png" alt="Logo" class="w-6 h-6 rounded-md">
+                    <span class="text-gray-600 font-medium">Dev<span class="font-bold text-black">Board</span></span>
+                </div>
+        
+                <!-- Badge with checkbox, number, and color icon -->
+                <div class="flex items-center space-x-2">
+                    <input type="checkbox" checked class="w-4 h-4 accent-blue-600">
+                    <span class="text-sm font-bold bg-gray-200 px-2 py-1 rounded-md">23</span>
+                    <img src="assets/theme-btn.png" alt="">
+                </div>
+            </div>
+        </nav>
+        
+    </section> 
 </body>
 </html>
