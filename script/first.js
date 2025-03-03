@@ -10,7 +10,7 @@ document.getElementById('complate-btn-1').addEventListener('click', function () 
 
     const addValue = parseInt(addTask) + 1;
     document.getElementById('add-task').innerText = addValue;
-    alert('Board Updated Successfully')
+    alert('Completed your task')
     if (alert) {
         const classAdd = document.getElementById('complate-btn-1');
         classAdd.setAttribute('disabled', true)
@@ -42,7 +42,7 @@ document.getElementById('complate-btn-2').addEventListener('click', function () 
 
     const addValue = parseInt(addTask) + 1;
     document.getElementById('add-task').innerText = addValue;
-    alert('Board Updated Successfully')
+    alert('Completed your task')
     if (alert) {
         const classAdd = document.getElementById('complate-btn-2');
         classAdd.setAttribute('disabled', true)
@@ -70,7 +70,7 @@ document.getElementById('complate-btn-3').addEventListener('click', function () 
     const addTask = document.getElementById('add-task').innerText;
     const addValue = parseInt(addTask) + 1;
     document.getElementById('add-task').innerText = addValue;
-    alert('Board Updated Successfully')
+    alert('Completed your task')
     if (alert) {
         const classAdd = document.getElementById('complate-btn-3');
         classAdd.setAttribute('disabled', true)
@@ -97,7 +97,7 @@ document.getElementById('complate-btn-4').addEventListener('click', function () 
     const addTask = document.getElementById('add-task').innerText;
     const addValue = parseInt(addTask) + 1;
     document.getElementById('add-task').innerText = addValue;
-    alert('Board Updated Successfully')
+    alert('Completed your task')
     if (alert) {
         const classAdd = document.getElementById('complate-btn-4');
         classAdd.setAttribute('disabled', true)
@@ -124,7 +124,7 @@ document.getElementById('complate-btn-5').addEventListener('click', function () 
     const addTask = document.getElementById('add-task').innerText;
     const addValue = parseInt(addTask) + 1;
     document.getElementById('add-task').innerText = addValue;
-    alert('Board Updated Successfully')
+    alert('Completed your task')
     if (alert) {
         const classAdd = document.getElementById('complate-btn-5');
         classAdd.setAttribute('disabled', true)
@@ -150,7 +150,7 @@ document.getElementById('complate-btn-6').addEventListener('click', function add
     const addTask = document.getElementById('add-task').innerText;
     const addValue = parseInt(addTask) + 1;
     document.getElementById('add-task').innerText = addValue;
-    alert('Board Updated Successfully')
+    alert('Completed your task')
     if (alert) {
         const classAdd = document.getElementById('complate-btn-6');
         classAdd.setAttribute('disabled', true);
