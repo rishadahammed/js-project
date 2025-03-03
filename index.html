@@ -19,7 +19,7 @@
         
                 <!-- Badge with checkbox, number, and color icon -->
                 <div class="flex items-center space-x-2">
-                    <h1 class="text-sm font-bold bg-gray-200 px-2 py-1 rounded-md ">23
+                    <h1 id="add-task" class="text-sm font-bold bg-gray-200 px-2 py-1 rounded-md ">23
                         <input type="checkbox" checked class="w-4 h-4 accent-blue-600 ">
                     </h1>
                     <img src="assets/theme-btn.png" alt="">
@@ -36,11 +36,11 @@
             <!-- Top Section -->
             <div class="grid grid-cols-3 gap-4">
                 <!-- Task Assigned -->
-                <div class="bg-gray-100 p-4 rounded-lg flex items-center space-x-3">
+                <div id="task-number" class="bg-gray-100 p-4 rounded-lg flex items-center space-x-3">
                     <input type="checkbox" checked class="w-5 h-5 accent-blue-600">
                     <div>
                         <p class="text-gray-500 text-sm">Task Assigned</p>
-                        <p class="text-2xl font-bold">05</p>
+                        <p  class="text-2xl font-bold">05</p>
                     </div>
                 </div>
     
@@ -73,55 +73,51 @@
                 <div class="bg-blue-50 p-4 rounded-lg shadow">
                     <span class="bg-white text-sm px-2 py-1 rounded">ShopEase</span>
                     <h3 class="font-bold mt-2 ">Fix Mobile Button Issue</h3>
-                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                        and ensure onClick works properly</p>
+                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly</p>
                     <p class="text-gray-500 text-xs mt-2">Deadline: <strong>21 March 2025</strong></p>
-                    <button class="bg-blue-600 text-white px-3 py-1 text-xs rounded mt-2">Completed</button>
+                    <button id="completeButton1" class="btn bg-blue-600 btn-soft">Completed</button>
                 </div>
-    
+                
                 <div class="bg-blue-50 p-4 rounded-lg shadow">
                     <span class="bg-white text-sm px-2 py-1 rounded">CloudSync</span>
                     <h3 class="font-bold mt-2">Add Dark Mode</h3>
                     <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
                     <p class="text-gray-500 text-xs mt-2">Deadline: <strong>21 March 2025</strong></p>
-                    <button class="bg-blue-600 text-white px-3 py-1 text-xs rounded mt-2">Completed</button>
+                    <button id="completeButton2" class="btn bg-blue-600 btn-soft">Completed</button>
                 </div>
-    
+                
                 <div class="bg-blue-50 p-4 rounded-lg shadow">
                     <span class="bg-white text-sm px-2 py-1 rounded">SwiftPay</span>
                     <h3 class="font-bold mt-2">Optimize Home Page</h3>
-                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                        and ensure onClick works properly</p>
+                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly</p>
                     <p class="text-gray-500 text-xs mt-2">Deadline: <strong>21 March 2025</strong></p>
-                    <button class="bg-blue-600 text-white px-3 py-1 text-xs rounded mt-2">Completed</button>
+                    <button id="completeButton3" class="btn bg-blue-600 btn-soft">Completed</button>
                 </div>
-    
+                
                 <div class="bg-blue-50 p-4 rounded-lg shadow">
                     <span class="bg-white text-sm px-2 py-1 rounded">Meta</span>
                     <h3 class="font-bold mt-2">Add new emoji 🤲</h3>
-                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                        and ensure onClick works properly</p>
+                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly</p>
                     <p class="text-gray-500 text-xs mt-2">Deadline: <strong>21 March 2025</strong></p>
-                    <button class="bg-blue-600 text-white px-3 py-1 text-xs rounded mt-2">Completed</button>
+                    <button id="completeButton4" class="btn bg-blue-600 btn-soft">Completed</button>
                 </div>
-    
+                
                 <div class="bg-blue-50 p-4 rounded-lg shadow">
                     <span class="bg-white text-sm px-2 py-1 rounded">Google LLC</span>
                     <h3 class="font-bold mt-2">Integrate OpenAI API</h3>
-                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                        and ensure onClick works properly</p>
+                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly</p>
                     <p class="text-gray-500 text-xs mt-2">Deadline: <strong>21 March 2025</strong></p>
-                    <button class="bg-blue-600 text-white px-3 py-1 text-xs rounded mt-2">Completed</button>
+                    <button id="completeButton5" class="btn bg-blue-600 btn-soft">Completed</button>
                 </div>
-    
+                
                 <div class="bg-blue-50 p-4 rounded-lg shadow">
                     <span class="bg-white text-sm px-2 py-1 rounded">Glassdoor</span>
                     <h3 class="font-bold mt-2">Improve Job Searching</h3>
-                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                        and ensure onClick works properly</p>
+                    <p class="text-gray-500 text-sm mt-1 bg-white p-4 rounded-lg shadow ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly</p>
                     <p class="text-gray-500 text-xs mt-2">Deadline: <strong>21 March 2025</strong></p>
-                    <button class="bg-blue-600 text-white px-3 py-1 text-xs rounded mt-2">Completed</button>
+                    <button id="completeButton6" class="btn bg-blue-600 btn-soft">Completed</button>
                 </div>
+                
             </div>
             </div>
         </div>
@@ -131,10 +127,9 @@
     <div class="absolute right-5 top-20  w-2xs min-h-full bg-white rounded-lg shadow-md ">
         <div class=" flex flex-col  items-center top-20 ">
             <h3 class="font-bold">🕘 Activity Log</h3>
-            <button class="btn btn-active bg-blue-600 btn-primary">Clear History</button>
+            <button class="btn bg-blue-600 btn-soft">Clear History</button>
         </div>
     </div>
-   
    </section>
        <script src="script/first.js"></script>
 </body>
